@@ -8,15 +8,6 @@
 		{%endif%}>Главная</a>
 
 	<a
-		{%if page.url == "/"%}
-			class="active"
-		{%elsif page.url contains "/blog/"%}
-			class="active" href="/blog"
-		{%else%}
-			href="/blog"
-		{%endif%}>Главная</a>
-
-	<a
 		{%if page.url == "/blog/"%}
 			class="active"
 		{%elsif page.url contains "/blog/"%}
