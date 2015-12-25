@@ -1,0 +1,156 @@
+body, select, input, textarea {
+	color: #333;
+}
+
+body {
+	padding: 1em 0;
+	font: 1.125em/1.4 PT Serif, Cambria, Georgia, serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	overflow-y: scroll;
+}
+
+a {
+	color: #00e;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+}
+.list li {
+	margin-bottom: 1em;
+}
+.list li .title {
+	/*font-weight: bold;*/
+	position: relative;
+}
+.list li .title .date {
+	position: absolute;
+	right:0;
+	color: #333;
+}
+.list li .cite {
+	font-style: italic;
+	font-size: 0.83em;
+	line-height: 1.25em;
+	text-align: justify;
+	/*color: #333;*/
+	text-decoration: none;
+}
+
+.content {
+	padding: 0 2em;
+	text-align: justify;
+}
+
+.header {
+	display: block;
+	text-align: center;
+}
+.avatar {
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px #ccc, 0 0 0 4px #fff, 0 0 0 5px #ccc;
+}
+
+.muted {
+	color: #aaa;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image:
+		-webkit-linear-gradient(
+			right,
+			rgba(204, 204, 204, 0) 0%,
+			rgba(204, 204, 204, 1) 30%,
+			rgba(204, 204, 204, 1) 70%,
+			rgba(204, 204, 204, 0) 100%);
+	background-image:
+		linear-gradient(
+			to left,
+			rgba(204, 204, 204, 0) 0%,
+			rgba(204, 204, 204, 1) 30%,
+			rgba(204, 204, 204, 1) 70%,
+			rgba(204, 204, 204, 0) 100%);
+}
+
+nav.top-nav {
+	display: block;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+nav.top-nav a {
+	color: #aaa;
+	padding: 0 1em 7px;
+	text-decoration: none;
+}
+
+nav.top-nav a.active {
+	border-bottom: 3px solid #ccc;
+}
+
+nav.top-nav a:link {
+	color: #156f8f;
+}
+
+nav.top-nav a:link.active {
+	color: #156f8f
+}
+
+nav.top-nav a:link:hover {
+	border-bottom: 3px solid #156f8f;
+}
+
+nav.top-nav a:visited {
+	color: #156f8f;
+}
+
+nav.top-nav a:visited:hover {
+	border-bottom: 3px solid #156f8f;
+}
+
+blockquote {
+	/*border-left: 1em solid #ccc;*/
+	border-left: 1em solid #faebbc;
+	padding: 0.5em 1em;
+	margin: 0;
+	font-style: italic;
+	/*background-color: #faebbc;*/
+	background-color: #fff9e3;
+	/*text-align: right;*/
+	box-shadow: 0.2em 0.2em 1em #ccc;
+}
+
+blockquote footer {
+	font: inherit;
+	font-weight: normal;
+	font-size: 0.83em;
+	padding: 1em 1em 0;
+	/*quotes: */
+}
+blockquote footer:before {
+	content: "\00a0\2014";
+}
+blockquote footer cite:before {
+	content: " ";
+}
+
+footer {
+	font: 0.67em/1 Arial, sans-serif;
+	text-align: right;
+}

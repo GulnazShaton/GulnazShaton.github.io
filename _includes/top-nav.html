@@ -1,0 +1,48 @@
+<nav class="top-nav">
+	
+	<a
+		{%if page.url == "/"%}
+			class="active"
+		{%else%}
+			href="/"
+		{%endif%}>Главная</a>
+
+	<a
+		{%if page.url == "/"%}
+			class="active"
+		{%elsif page.url contains "/blog/"%}
+			class="active" href="/blog"
+		{%else%}
+			href="/blog"
+		{%endif%}>Главная</a>
+
+	<a
+		{%if page.url == "/blog/"%}
+			class="active"
+		{%elsif page.url contains "/blog/"%}
+			class="active" href="/blog"
+		{%else%}
+			href="/blog"
+		{%endif%}>Блог</a>
+
+	<a
+		{%if page.url == "/portfolio/"%}
+			class="active"
+		{%elsif page.url contains "/portfolio/"%}
+			class="active" href="/portfolio"
+		{%else%}
+			href="/portfolio"
+		{%endif%}>Портфолио</a>
+	
+	<a
+		{%if page.url == "/notes/"%}
+			class="active"
+		{%elsif page.url contains "/notes/"%}
+			class="active" href="/notes"
+		{%else%}
+			href="/notes"
+		{%endif%}>Записки</a>
+
+</nav>
+
+<hr style="margin: 0;"/>
