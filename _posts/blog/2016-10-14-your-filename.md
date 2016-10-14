@@ -1,7 +1,10 @@
 ---
-published: true
+published: false
 layout: post
+title: Первый постик
 ---
-## A New Post
+# В Нижнекамске две мошенницы на улице «снимают порчу» 
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Одну пенсионерку они обокрали почти на полмиллиона рублей. 
+
+13 октября к 75-летней женщине возле поликлинике на ул. Строителей обратилась женщина – на вид 50 лет – и предложила помочь со здоровьем. Тут же к ним присоединилась девушка лет 25-30 и тоже просила «знахарку» ей помочь.
