@@ -5,8 +5,6 @@ profile: 1
 permalink: /
 ---
 
-<!--
--->
 ## Счетчик
 
 * Постов в [блоге](/blog): **{{site.categories["blog"]|size}}**
