@@ -27,7 +27,7 @@ sass:
 markdown: kramdown
 kramdown:
   auto_ids: false
-highlighter: pygments
+highlighter: rouge
 timezone: Russia/Moscow
 
 permalink: /:categories/:title
