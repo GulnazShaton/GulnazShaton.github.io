@@ -1,5 +1,6 @@
 ---
 published: true
+layout: page
 ---
 ## A New Post
 
