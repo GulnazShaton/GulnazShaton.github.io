@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Блог
+title: Пробный постик
 profile: 1
 permalink: blog/
+published: true
 ---
 
 ### Мои сочинения
