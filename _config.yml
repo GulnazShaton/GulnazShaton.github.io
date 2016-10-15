@@ -35,21 +35,21 @@ permalink: /:categories/:title
 defaults:
   -
     scope:
-      path: blog
+      path: _posts/blog
       type: posts
     values:
       category: blog
       layout: post
   -
     scope:
-      path: portfolio
+      path: _posts/portfolio
       type: posts
     values:
       category: portfolio
       layout: post
   -
     scope:
-      path: notes
+      path: _posts/notes
       type: posts
     values:
       category: notes
