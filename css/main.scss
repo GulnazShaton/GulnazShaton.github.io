@@ -1,6 +1,7 @@
 ---
 ---
 
-@import "normalize.scss";
+@import "pure-min.scss";
+@import "grids-responsive-min.scss";
 
-@import "my.scss";
+@import "layouts/blog.scss";

@@ -1,21 +1,11 @@
 ---
-layout: compress
+;layout: compress
 ---
-
-{% include head.html %}
-
-{% include top-nav.html %}
 
 {% include header.html %}
 
-<div class="content">
-
-<center><h1>{{ page.title }}</h1></center>
-
 {{ content }}
 
-</div>
-
-<hr/>
+<div style="text-align: right;">&copy; <em>{{site.author.name}} {{site.author.surname}}. {{page.date|date:'%d.%m.%Y'}}.</em></div>
 
 {% include footer.html %}

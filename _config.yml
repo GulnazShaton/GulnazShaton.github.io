@@ -1,7 +1,7 @@
 author:
   name: "Гульназ"
-  nickname: "Shaton"
   surname: "Хабибуллина"
+  nickname: "Shaton"
   socials:
     twitter: "-"
     google_plus: "-"
@@ -12,13 +12,7 @@ author:
     blogger: "-"
     email: "-"
 
-analytics:
-  google: "-"
-  yandex: "-"
-
 url: "http://gulnazshaton.ru/"
-github_url: "https://github.com/GulnazShaton/GulnazShaton.github.io"
-name: "Гульназ shaton Хабибуллина"
 description: "Уютное место для моих мыслей"
 start_time: 2015-12-25 18:00:00 +0300
 
@@ -30,7 +24,7 @@ kramdown:
 highlighter: rouge
 timezone: Russia/Moscow
 
-permalink: /:categories/:title
+permalink: :categories/:title/
 
 defaults:
   -
@@ -55,4 +49,4 @@ defaults:
       category: notes
       layout: post
 
-exclude: ['_site/', '.sass-cache/']
+exclude: ['_site/', '.sass-cache/', 'node_modules/', 'gulpfile.js', 'package.json', 'CNAME', 'README.md']
