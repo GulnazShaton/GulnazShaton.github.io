@@ -4,20 +4,23 @@ title: Портфолио
 permalink: portfolio/
 ---
 
-<ul class="list">
+<div class="posts">
 {%for post in site.categories['portfolio']%}
-  <li>
-    <a href="{{post.url}}">
-      <div class="title">
-        {{post.title}}
-        <span class="date">{{post.date|date:'%d.%m.%Y'}}</span>
-      </div>
-    </a>
-      <div class="cite">
+  <section class="post">
+    <header class="post-header">
+      <h1 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h1>
+
+    </header>
+
+    <div class="post-description">
+      <p>
         {{post.content|strip_html|truncatewords:20,"..."}}
-        <br/><a href="{{post.url}}">Читать весь текст</a> (слов: {{post.content|number_of_words}}).
-      </div>
-  </li>
-  <hr/>
+      </p>
+    </div>
+    <p class="post-meta">
+      Дата: {{post.date|date:'%d.%m.%Y'}}. Слов: {{post.content|number_of_words}}.
+      <a href="{{post.url}}">Читать >>...</a>
+    </p>
+  </section>
 {%endfor%}
-</ul>
+</div>

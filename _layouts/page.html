@@ -6,4 +6,11 @@
 
 {{ content }}
 
+{%if page.url == "/" or page.url == "/blog/"%}
+<div><a href="{{%site.github%}}/new/master/_posts/blog/" target="_blank">Добавить статью в блог...</a></div>
+{%endif%}
+{%if page.url == "/" or page.url == "/portfolio/"%}
+<div><a href="{{%site.github%}}/new/master/_posts/portfolio/" target="_blank">Добавить статью в портфолио...</a></div>
+{%endif%}
+
 {% include footer.html %}

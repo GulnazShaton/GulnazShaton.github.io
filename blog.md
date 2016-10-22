@@ -4,12 +4,11 @@ title: Блог
 permalink: blog/
 ---
 
-<!-- A wrapper for all the blog posts -->
 <div class="posts">
 {%for post in site.categories['blog']%}
   <section class="post">
     <header class="post-header">
-      <center><h1 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h1></center>
+      <h1 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h1>
 
     </header>
 
