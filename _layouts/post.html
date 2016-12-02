@@ -6,8 +6,8 @@
 
 {{ content }}
 
-<div style="text-align: right;">&copy; <em>{{site.author.name}} {{site.author.surname}}. {{page.date|date:'%d.%m.%Y'}}.</em></div>
+<div>&copy; <em>{{site.author.name}} {{site.author.surname}}. {{page.date|date:'%d.%m.%Y'}}.</em></div>
 
-<a href="{{%site.github%}}/edit/master/{{page.path}}" target="_blank">Редактировать статью...</a>
+<div style="text-align: right;"><a href="{{%site.github%}}/edit/master/{{page.path}}" target="_blank">Редактировать статью...</a></div>
 
 {% include footer.html %}
