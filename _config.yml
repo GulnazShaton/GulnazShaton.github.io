@@ -25,7 +25,7 @@ kramdown:
 highlighter: rouge
 timezone: Russia/Moscow
 
-permalink: :categories/:title/
+permalink: :categories/:title
 
 defaults:
   -
